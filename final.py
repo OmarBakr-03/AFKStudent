@@ -87,7 +87,6 @@ while calledName == False:
     if word in text:
         # print("found on line", count)
         # pb = PushBullet(API_KEY)
-        # push = pb.push_note('Come back to class you fucking donkey',text)
         print("Found")
         calledName = True
         #The Twilio api that allows to make phone calls and send sms messages
@@ -135,3 +134,8 @@ r = requests.post(
     headers=headers,
     files=files
 )
+#Credits:
+#https://www.twilio.com/docs/sms/quickstart/python
+#https://www.youtube.com/watch?v=JwGzHitUVcU
+
+    
